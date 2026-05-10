@@ -1,0 +1,19 @@
+# Stale local artifacts and results — VPS results are authoritative
+results/
+artifacts/
+
+# Python / tooling
+.ruff_cache/
+.venv/
+__pycache__/
+*.pyc
+
+# HF / model cache
+hf_home/
+
+# Archives and binary blobs
+*.zip
+
+# OS junk
+.DS_Store
+Thumbs.db
